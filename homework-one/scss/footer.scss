@@ -1,0 +1,19 @@
+footer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    #copyright {
+        font-size:.82rem;
+        background-color:#242424;
+        color:#777777;
+        padding: 30px 0px;
+        text-align: center;
+        width:100%;
+      }
+}

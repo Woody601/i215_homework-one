@@ -1,0 +1,33 @@
+.homeContent {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: antiquewhite;
+}
+.homeContent .sectionbody {
+  margin: 0 auto;
+  padding: 50px;
+  background-color: white;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+.homeContent .sectionbody h1 {
+  width: 100%;
+}
+.homeContent .sectionbody p {
+  font-size: 16px;
+}
+.homeContent .sectionbody img.portrait {
+  max-width: 300px;
+  width: 50%;
+}
